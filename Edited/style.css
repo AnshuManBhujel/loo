@@ -1,0 +1,65 @@
+body {
+    background: #3e4144;
+}
+.form {
+    margin: 80px auto;
+    width: 380px;
+    padding: 30px 25px;
+    background: white;
+}
+h1.login-title {
+    color: #666;
+    margin: 0px auto 25px;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+}
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin-bottom: 22px;
+    height: 22px;
+    width: calc(100% - 23px);
+}
+.login-input:focus {
+    border-color:#7b8fa7;
+    outline: none;
+}
+.login-button {
+    color: #fff;
+    background: #529bf5;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.link {
+    color: rgb(119, 118, 118);
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.link a {
+    color: rgb(94, 93, 93);
+}
+h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* for captcha */
+.capu{
+ text-align: center; 
+ margin: 0px auto 25px;
+ padding-top: 30px; 
+ width: 200px; 
+ height: 50px; 
+ background-image: url('img/gray.jpg');
+}
+.form .capuMargin{
+    margin-bottom: 22px;
+}
